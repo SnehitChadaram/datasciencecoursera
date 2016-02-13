@@ -15,6 +15,9 @@ shinyUI(
       verbatimTextOutput("owt"),
       h4('Your BMI is:'),
       verbatimTextOutput("obmi"),
+      plotOutput('Hist'),
+      h4('Your healthy range of weight for your height is:'),
+      verbatimTextOutput("hwt"),
       h3('Instructions:'),
       h4('Just enter your height in centimetres and weight in kilograms.
          If you have trouble entering the values in these units, you can
