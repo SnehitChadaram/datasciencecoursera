@@ -30,9 +30,7 @@ Calculation
 The BMI calculation is very simple. It is just the ratio of your weight(wt in kg's) and squared height(in m's) [or 1000*squared height(in cm's)].
 For example, if a persons height and weight are entered as below, then the BMI of that person is given as:
 ```{r}
-ht<- 178
-wt<- 56
-bmi<- wt*10000/ht^2
+ht<- 178; wt<- 56 ;bmi<- wt*10000/ht^2
 bmi
 ```
 Though a persons health depends on many other factors, this plays a major role in doing daily activities in one's life.

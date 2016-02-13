@@ -798,7 +798,17 @@ BMI Categories: </p>
 <section data-transition="linear" data-transition-speed="default">
 <h3>Calculation</h3>
 <div class="slideContent" >
-<p>The BMI calculation is very simple. It is just the ratio of your weight(wt in kg&#39;s) and squared height(in m&#39;s). Though a persons health depends on many other factors, this plays a major role in doing daily activities in one&#39;s life.
+<p>The BMI calculation is very simple. It is just the ratio of your weight(wt in kg&#39;s) and squared height(in m&#39;s) [or 1000*squared height(in cm&#39;s)].
+For example, if a persons height and weight are entered as below, then the BMI of that person is given as:</p>
+
+<pre><code class="r">ht&lt;- 178; wt&lt;- 56 ;bmi&lt;- wt*10000/ht^2
+bmi
+</code></pre>
+
+<pre><code>[1] 17.67454
+</code></pre>
+
+<p>Though a persons health depends on many other factors, this plays a major role in doing daily activities in one&#39;s life.
 <br/> Stay healthy
 <br/>
 <br/> Click on <a href="https://github.com/SnehitChadaram/datasciencecoursera/blob/master/ui.R">ui.R</a> and <a href="https://github.com/SnehitChadaram/datasciencecoursera/blob/master/server.R">server.R</a> to access the codes.</p>

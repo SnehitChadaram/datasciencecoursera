@@ -31,9 +31,7 @@ The BMI calculation is very simple. It is just the ratio of your weight(wt in kg
 For example, if a persons height and weight are entered as below, then the BMI of that person is given as:
 
 ```r
-ht<- 178
-wt<- 56
-bmi<- wt*10000/ht^2
+ht<- 178; wt<- 56 ;bmi<- wt*10000/ht^2
 bmi
 ```
 
